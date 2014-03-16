@@ -1,0 +1,7 @@
+buys=rice,wheat,chickenmeat
+
+sells=rice,bread,udon,ikayaki,sake
+
+deliverto=udon
+
+buyingPrice=chickenmeat,20

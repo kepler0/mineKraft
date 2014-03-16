@@ -18,3 +18,5 @@ mods/1.6.4
 *.log
 *.log.lck
 *.1
+powersuits-keybinds.cfg
+servers.dat
