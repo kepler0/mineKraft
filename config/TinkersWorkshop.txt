@@ -111,6 +111,7 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
@@ -154,10 +155,21 @@ dimblacklist {
 
 
 ####################
+# environment checks
+####################
+
+"environment checks" {
+    # Change env check warnings to reflect that this is a modpack.
+    B:IsModpack=false
+}
+
+
+####################
 # equipables
 ####################
 
 equipables {
+    B:Exo-Armor-Craftable=false
     I:Exo-Boots=14119
     I:Exo-Chestpiece=14117
     I:Exo-Goggles=14116
@@ -191,6 +203,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
@@ -258,6 +279,7 @@ looks {
 
 superfun {
     B:"All the world is Superfun"=false
+    B:Enable-TCon-Capes=true
 }
 
 
