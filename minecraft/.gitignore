@@ -1,0 +1,8 @@
+/*
+/*/
+!/mods/
+!/config/
+!.gitignore
+*.version
+*.pak
+powersuits-keybinds.cfg
